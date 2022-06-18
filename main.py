@@ -1,5 +1,8 @@
-print("test push")
+import cv2
 
-x = "another test"
+#player class
 
-#new day new me is git linked properly?
+class Player:
+    def __init__(self) -> None:
+        self.health = 100
+
